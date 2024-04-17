@@ -1,0 +1,5 @@
+$cfg['Servers'][2]['host'] = '10.10.1.100';
+$cfg['Servers'][2]['port'] = 3306;
+$cfg['Servers'][2]['user'] = 'root';
+$cfg['Servers'][2]['password'] = 'XboX720SliM!';
+$cfg['Servers'][2]['auth_type'] = 'cookie';

@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app:
+    image: starttoreestr  # Используйте имя вашего собственного образа
+    ports:
+      - "3000:3000" # Проброс порта между хостом и контейнером
+    volumes:
+      - appstorage:/app/storage # Создание volume для папки storage
+volumes:
+  appstorage: # Определение volume, который будет использоваться

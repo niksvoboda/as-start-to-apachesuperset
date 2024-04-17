@@ -1,0 +1,23 @@
+{
+  "name": "as-start-to-apachesuperset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cli-color": "^2.0.3",
+    "config": "^3.3.9",
+    "mysql2": "^3.9.3"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "storage"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

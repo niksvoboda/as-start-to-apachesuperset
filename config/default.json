@@ -1,0 +1,42 @@
+{
+  "version": "v1.0.0", 
+  "log":  {
+    "console" : true
+  },
+  "home": "/",
+  "db": {
+    "host": "10.10.1.100",
+    "user": "root",
+    "password": "XboX720SliM!",
+    "database": "asstart",
+    "port": 3306
+  },
+  "api_sync_period": 15,
+  "api_check_sync_period": 5,
+  "api_check_ssl": false,
+  "api_start_host": "http://10.10.1.100",
+  "api_start_auth": {
+    "login": "admin",    
+    "password": "W!8xp9ck8MT!9H9"  
+  },
+  "api_start_url": {
+    "login": "/v2/api/user/active/login",    
+    "tag_search": "/v2/api/tag/search",
+    "specification_ids_search": "/v2/admin/specification/search",    
+    "specification_ids_category_search": "/v2/admin/specification/category/search",     
+    "project_search": "/v2/admin/project/search",
+    "project_id": "/v2/api/project",    
+    "project_add": "/v2/admin/gpb/projectApplication",
+    "application": "/v2/admin/application",
+    "template_search": "/v2/admin/application/template/search",
+    "application_search": "/v2/admin/application/search"
+  },
+  "api_superset_host": "http://10.10.1.55:8088",
+  "api_superset_auth": {
+    "login": "admin",    
+    "password": "admin"  
+  },
+  "api_superset_url": {
+    "login": "/api/v1/security/login"
+  }
+}
